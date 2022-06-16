@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="styles/styles.css">
   <title> HTML Academy: Седона</title>
-
 </head>
 
 <body>
@@ -26,6 +25,7 @@
           <a href="catalog.html" class="navigation-link">Гостиницы</a>
         </li>
       </ul>
+      <!-- отображение и настройку данного участка навигации сказали покажут в одном из следующих уроках -->
       <ul class="navigation-user">
         <li class="navigation-user-item navigation-user-find">
           <a href="#" class="navigation-link">
@@ -38,9 +38,7 @@
           </a>
         </li>
         <li class="navigation-user-item navigation-user-want-here">
-          <a href="#" class="navigation-user-want-here-link">
-            <span>ХОЧУ СЮДА!</span>
-          </a>
+          <a href="#" class="navigation-user-want-here-link"><span>ХОЧУ СЮДА!</span></a>
         </li>
       </ul>
     </nav>
@@ -52,10 +50,10 @@
     <div class="page-container">
       <!-- Промо блок -->
       <h1 class="visually-hidden">Седона небольшой городок в Аризоне</h1>
-      <section class="promo">
+      <div class="promo">
         <img src="images/promo-welcome2.svg" width="458" height="352" alt="Добро пожаловать в Седону"
           class="promo-welcome">
-      </section>
+      </div>
       <!-- Преимущества -->
       <section class="advantages">
         <div class="advantages-text">
@@ -75,60 +73,60 @@
               <img src="images/advantages-siti.jpg" width="800" height="384" alt="город"
                 class="advantages-photo-picture">
             </div>
-          </div>
-          <!--Вторая строка в блоке преимущества из трех блоков-->
-          <div class="advantages-hotel-food-suvenir">
-            <div class="advantages-hotel">
-              <img src="images/advantages-logo-hotel.svg" width="75" height="72" alt=отель"
-                class="advantages-hotel-picture">
-              <h3 class="advantages-header advantages-hotel-header">Жилье</h3>
-              <p class="advantages-hotel-desc">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            <!--Вторая строка в блоке преимущества из трех блоков-->
+            <div class="advantages-hotel-food-suvenir">
+              <div class="advantages-hotel">
+                <img src="images/advantages-logo-hotel.svg" width="75" height="72" alt="отель"
+                  class="advantages-hotel-picture">
+                <h3 class="advantages-header advantages-hotel-header">Жилье</h3>
+                <p class="advantages-hotel-desc">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              </div>
+              <div class="advantages-food">
+                <img src="images/advantages-logo-food.svg" width="74" height="70" alt="еда"
+                  class="advantages-food-picture">
+                <h3 class="advantages-header advantages-house-header">ЕДА</h3>
+                <p class="advantages-food-desc">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+              </div>
+              <div class="advantages-suvenir">
+                <img src="images/advantages-logo-suvenir.svg" width="64" height="76" alt="Сувениры"
+                  class="advantages-souvenirs-picture">
+                <h3 class="advantages-header advantages-suvenir-header">Сувениры</h3>
+                <p class="advantages-suvenir-desc">Не только китайского, но и настоящего местного производства!</p>
+              </div>
             </div>
-            <div class="advantages-food">
-              <img src="images/advantages-logo-food.svg" width="74" height="70" alt="еда"
-                class="advantages-food-picture">
-              <h3 class="advantages-header advantages-house-header">ЕДА</h3>
-              <p class="advantages-food-desc">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            <!---Третья строка в блоке преимущества из 2-х блоков-->
+            <div class="advantages-devil-bridge">
+              <div class="advantages-bridge">
+                <img src="images/advantages-bridge.jpg" width="800" height="384" alt="мост дьявола"
+                  class="advantages-bridge-picture">
+              </div>
+              <div class="advantages-there-devil-bridge">
+                <h3 class="advantages-header advantages-there-devil-bridge-header">Там есть мост дьявола</h3>
+                <span class="advantages-there-devil-bridge-header-number">-№2-</span>
+                <p class="advantages-there-devil-bridge-header-desc">Да, по нему можно пройти! Если вы осмелитесь,
+                  разумеется</p>
+              </div>
             </div>
-            <div class="advantages-suvenir">
-              <img src="images/advantages-logo-suvenir.svg" width="64" height="76" alt="Сувениры"
-                class="advantages-souvenirs-picture">
-              <h3 class="advantages-header advantages-suvenir-header">Сувениры</h3>
-              <p class="advantages-suvenir-desc">Не только китайского, но и настоящего местного производства!</p>
-            </div>
-          </div>
-          <!---Третья строка в блоке преимущества из 2-х блоков-->
-          <div class="advantages-devil-bridge">
-            <div class="advantages-bridge">
-              <img src="images/advantages-bridge.jpg" width="800" height="384" alt="мост дьявола"
-                class="advantages-bridge-picture">
-            </div>
-            <div class="advantages-there-devil-bridge">
-              <h3 class="advantages-header advantages-there-devil-bridge-header">Там есть мост дьявола</h3>
-              <span class="advantages-there-devil-bridge-header-number">-№2-</span>
-              <p class="advantages-there-devil-bridge-header-desc">Да, по нему можно пройти! Если вы осмелитесь,
-                разумеется</p>
-            </div>
-          </div>
-          <!--четвертая строка в блоке преимущества-->
-          <div class="advantages-area-road-camper">
-            <div class="advantages-area">
-              <h3 class="advantages-header advantages-area-header">Небольшая площадь</h3>
-              <span class="advantages-area-number">-3-</span>
-              <p class="advantages-area-descr">Все достопримечательности находятся очень близко
-              </p>
-            </div>
-            <div class="advantages-road">
-              <h3 class="advantages-header advantages-road-header">Красивая дорога</h3>
-              <span class="advantages-road-number">-4-</span>
-              <p class="advantages-road-descr">Ехать в Седону из Лас-Вегаса совсем не скучно!
-              </p>
-            </div>
-            <div class="advantages-camper">
-              <h3 class="advantages-camper-header">Мало туристов</h3>
-              <span class="advantages-header advantages-camper-number">-5-</span>
-              <p class="advantages-camper-descr">Большинство едет в Гранд Каньон и толпится там
-              </p>
+            <!--четвертая строка в блоке преимущества-->
+            <div class="advantages-area-road-camper">
+              <div class="advantages-area">
+                <h3 class="advantages-header advantages-area-header">Небольшая площадь</h3>
+                <span class="advantages-area-number">-3-</span>
+                <p class="advantages-area-descr">Все достопримечательности находятся очень близко
+                </p>
+              </div>
+              <div class="advantages-road">
+                <h3 class="advantages-header advantages-road-header">Красивая дорога</h3>
+                <span class="advantages-road-number">-4-</span>
+                <p class="advantages-road-descr">Ехать в Седону из Лас-Вегаса совсем не скучно!
+                </p>
+              </div>
+              <div class="advantages-camper">
+                <h3 class="advantages-camper-header">Мало туристов</h3>
+                <span class="advantages-header advantages-camper-number">-5-</span>
+                <p class="advantages-camper-descr">Большинство едет в Гранд Каньон и толпится там
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -158,15 +156,15 @@
     <footer class="footer-page">
       <div class="footer-social-list-wrapper">
         <ul class="footer-social-list">
-          <li class="footer-vk-item">
+          <li class="footer-item footer-vk-item">
             <a class="footer-vk-link" href="#">
               <span class="visually-hidden">В контакте</span></a>
           </li>
-          <li class="footer-telegram-item">
+          <li class="footer-item footer-telegram-item">
             <a class="footer-telegram-link" href="#">
               <span class="visually-hidden">Телеграм</span></a>
           </li>
-          <li class="footer-youtube-item">
+          <li class="footer-item footer-youtube-item">
             <a class="footer-youtube-link" href="#">
               <span class="visually-hidden">Ютуб</span></a>
           </li>
